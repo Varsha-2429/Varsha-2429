@@ -28,7 +28,7 @@ password = st.text_input("🔑 Password:", type="password")
 if st.button("Login"):
     try:
         conn = snowflake.connector.connect(
-            user="atliq",
+            user="SRIVARSHA2429",
             password="12345",
             account=ACCOUNT,
             warehouse=WAREHOUSE,
