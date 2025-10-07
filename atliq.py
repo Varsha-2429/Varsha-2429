@@ -29,7 +29,7 @@ if st.button("Login"):
     try:
         conn = snowflake.connector.connect(
             user="SRIVARSHA2429",
-            password="12345",
+            password="Shri@2429",
             account=ACCOUNT,
             warehouse=WAREHOUSE,
             database=DATABASE,
